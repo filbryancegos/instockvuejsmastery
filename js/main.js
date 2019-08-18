@@ -210,7 +210,7 @@ Vue.component('product-tab', {
                 {{tab}}
             </span>
 
-            <div class="reviewssfdsfsd">
+            <div class="review">
                 <div v-show="selectedTab === 'Reviews'">
                     <h2>Reviews</h2>
                     <p v-if="!reviews.length">There are no review yet</p>

@@ -13,6 +13,15 @@
     display: flex;
 }
 
+.review {
+    margin-top: 2em;
+}
+span.tab:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
 .product {
     flex: 1;
 }
